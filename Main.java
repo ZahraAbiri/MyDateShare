@@ -15,7 +15,10 @@ public class Main {
 
 
         MyDate mydate = new MyDate();
+        MyDate mydate2 = new MyDate(year,month,day);
         System.out.println("Is date validate?" + mydate.isValidDate(year, month, day));
         System.out.println("Last day of month:" + mydate.getMonthLastDay(month));
+        mydate2.toString();
+          System.out.println(mydate2.nextDate());
     }
 }
