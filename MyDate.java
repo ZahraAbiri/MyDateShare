@@ -148,6 +148,28 @@ public class MyDate {
 
         }
         name=(" nex day is : "+day+"-"+ name +"-" + year );
+
+    public String toString()
+    {
+        String name="";
+
+        switch(month)
+        {
+            case 1:name="Farvardin"; break;
+            case 2:name="Ordibehesht"; break;
+            case 3:name="Khordad"; break;
+            case 4:name="Tir"; break;
+            case 5:name="Mordad"; break;
+            case 6:name="Shahrivar"; break;
+            case 7:name="Mehr"; break;
+            case 8:name="Aban"; break;
+            case 9:name="Azar"; break;
+            case 10:name="Dey"; break;
+            case 11:name="Bahman"; break;
+            case 12:name="Esfand"; break;
+
+        }
+        name=(day+"-"+ name +"-" + year );
         return name;
     }
 }
