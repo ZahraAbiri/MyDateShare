@@ -80,6 +80,75 @@ public class MyDate {
         return lastDayOfMonth;
 
     }
+     public String nextDate()
+    {
+        String name="";
+        switch(mon)
+        {
+            case 1:name="Farvardin";
+                if(day>=1||day<=30){
+                    day+=1;
+                }
+                break;
+            case 2:name="Ordibehesht";
+                if(day>=1||day<=30){
+                    day+=1;
+                }
+                break;
+            case 3:name="Khordad";
+                if(day>=1||day<=30){
+                    day+=1;
+                }
+                break;
+            case 4:name="Tir";
+                if(day>=1||day<=30){
+                    day+=1;
+                }
+                break;
+            case 5:name="Mordad";
+                if(day>=1||day<=30){
+                    day+=1;
+                }
+                break;
+            case 6:name="Shahrivar";
+                if(day>=1||day<=30){
+                    day+=1;
+                }
+                break;
+            case 7:name="Mehr";
+                if(day>=1||day<=29){
+                    day+=1;
+                }
+                break;
+            case 8:name="Aban";
+                if(day>=1||day<=29){
+                    day+=1;
+                }
+                break;
+            case 9:name="Azar";
+                if(day>=1||day<=29){
+                    day+=1;
+                }
+                break;
+            case 10:name="Dey";
+                if(day>=1||day<=29){
+                    day+=1;
+                }
+                break;
+            case 11:name="Bahman";
+                if(day>=1||day<=29){
+                    day+=1;
+                }
+                break;
+            case 12:name="Esfand";
+                if(day>=1||day<=28){
+                    day+=1;
+                }
+                break;
+
+        }
+        name=(" nex day is : "+day+"-"+ name +"-" + year );
+
     public String toString()
     {
         String name="";
